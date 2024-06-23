@@ -1,0 +1,51 @@
+.contentCardPeople {
+  transition: 0.8s;
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 5px solid silver;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: rgb(66, 64, 64);
+  color: white;
+  font-size: bolder;
+  cursor: pointer;
+}
+
+.contentCardPeople:hover,
+.contentCardVehicle:hover,
+.contentCardPlanet:hover {
+  width: 253px;
+  height: 303px;
+  background-color: #cecaca;
+  color: black;
+  border: 5px solid black;
+}
+
+.btn {
+  padding: 6px 10px;
+  margin-left: 15px;
+  border: 1px solid grey;
+  border-radius: 50% 50%;
+  color: #000000;
+}
+
+.btn:active{
+  box-shadow: -1px 0px 15px -2px rgb(24, 24, 1);
+  background-color: #ebd508;
+  color: #000000;
+}
+
+.bgBtn{
+  background-color: #ebd508;
+  padding: 6px 10px;
+  margin-left: 15px;
+  border: 1px solid grey;
+  border-radius: 50% 50%;
+  box-shadow: -1px 0px 15px -2px #ebd508;
+}
